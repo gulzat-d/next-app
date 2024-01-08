@@ -1,0 +1,18 @@
+.container {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+
+.count {
+	color: var(--grey);
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.image {
+	width: 16px;
+	height: 16px;
+}
