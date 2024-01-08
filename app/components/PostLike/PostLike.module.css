@@ -1,0 +1,22 @@
+.container {
+	border-radius: 50%;
+	border: 1px solid #303030;
+}
+
+.notActiveContainer {
+	background: #303030;
+}
+
+.image {
+	width: 18px;
+	height: 18px;
+	padding: 16px;
+}
+
+.active {
+	stroke: var(--white);
+}
+
+.notActive {
+	background: none;
+}

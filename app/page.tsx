@@ -1,4 +1,5 @@
 import { Card } from './components/Card/Card';
+import { PostLike } from './components/PostLike/PostLike';
 import styles from './page.module.css';
 import { Metadata } from 'next';
 
@@ -20,6 +21,7 @@ export default function Home() {
           count={4}
           time={'3 minutes'}
         ></Card>
+        <PostLike/>
       </main>
     </>
 
